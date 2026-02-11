@@ -10,8 +10,8 @@ int main()
     return 0;
 }
 
-double long subtract(int n, int m)
+double long subtract(long long n, short m)
 {
    
-    return n/m;
+    return n - m;
 }

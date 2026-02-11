@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-int convert_to_float(int num)
+float convert_to_float(int num)
 {
     return num;
 }

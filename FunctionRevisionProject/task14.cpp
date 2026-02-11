@@ -4,13 +4,8 @@
 #include <iostream>
 using namespace std;
 
-int is_digit(bool b) {
-    int s;
-    if (b == 1 || b == 2 || b == 3 || b == 4 || b == 5 || b == 6 || b == 7 || b == 8|| b == 9 || b == 0) {
-        return s;
-    }
-    else{
-        return -1;
+int is_digit(bool check, char ch) {
+    return check && ch;
     }
 
     return s;

@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-bool print_status(string code, int success)
+bool print_status(int code, bool success)
 {
     cout << "Code: " << code << ", Success: " << (success ? "Yes" : "No");
 }

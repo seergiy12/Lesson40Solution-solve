@@ -4,12 +4,16 @@
 #include <iostream>
 using namespace std;
 
+
+
+long double square(long double n);
+
 int main() {
     cout << square(3.5f);
     return 0;
 }
 
-long square(long n) {
+long double square(long double n) {
     return n * n;
 }
 

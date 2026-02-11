@@ -5,10 +5,11 @@
 using namespace std;
 
 int factorial(int n) {
-    int i;
-    while (i != 0) {
-        i* (n - 1);
+    int result;
+    for (int i = 2; i <= n; i++) {
+        i *= i;
     }
+    return result;
 }
 
 int main() {

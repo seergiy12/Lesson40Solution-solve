@@ -6,6 +6,6 @@ using namespace std;
 
 int main()
 {
-    bool print_message("Hello, C++!");
-    return 0;
+    void print_message("Hello, C++!");
+    cout << "hello, c++";
 }

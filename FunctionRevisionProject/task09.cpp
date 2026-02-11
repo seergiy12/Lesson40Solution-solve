@@ -4,13 +4,15 @@
 #include <iostream>
 using namespace std;
 
+string repeat_symbol(char ch, int count);
+
 int main()
 {
     cout << repeat_symbol('*', 5);
     return 0;
 }
 
-int repeat_symbol(int ch, int count)
+string repeat_symbol(char ch, int count)
 {
     string result;
     for (int i = 0; i < count; i++)

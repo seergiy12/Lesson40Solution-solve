@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-int is_even(int flag, int num);
+bool is_even(int flag, int num);
 
 int main()
 {
@@ -12,7 +12,7 @@ int main()
     return 0;
 }
 
-int is_even(int flag, int num)
+bool is_even(int flag, int num)
 {
     return flag && (num % 2 == 0);
 }

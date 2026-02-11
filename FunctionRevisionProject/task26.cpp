@@ -3,13 +3,13 @@
 
 #include <iostream>
 using namespace std;
-int fibonacci(int n);
+long long fibonacci(int n);
 
 int main() {
     return 0;
 }
 
-int fibonacci(int n) {
+long long fibonacci(int n) {
     if (n <= 1) {
         return n;
     }

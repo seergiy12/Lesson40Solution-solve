@@ -11,7 +11,7 @@ int main() {
     return 0;
 }
 
-string find_сhar(char str, char ch) {
+string find_сhar(string str, char ch) {
     for (int i = 0; i < str.length(); i++) {
         if (str[i] == ch) {
             return i;

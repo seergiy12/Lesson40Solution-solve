@@ -4,8 +4,8 @@
 #include <iostream>
 using namespace std;
 
-int divide(int n, int m) {
-
+double divide(int n, int m) {
+    return n / m;
 }
 
 int main()

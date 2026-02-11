@@ -4,14 +4,14 @@
 #include <iostream>
 using namespace std;
 
-int is_prime(int num);
+bool is_prime(int num);
 
 int main() {
     cout << is_prime(7);
     return 0;
 }
 
-int is_prime(int num) {
+bool is_prime(int num) {
     if (num <= 1) {
         return false;
     }

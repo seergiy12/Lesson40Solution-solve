@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-string add_exclamination(char s) {
+string add_exclamination(string s) {
     cout << s << "!";
 }
 int main() {
