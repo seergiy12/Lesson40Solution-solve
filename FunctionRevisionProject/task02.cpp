@@ -5,9 +5,7 @@
 using namespace std;
 
 int sum_large(int n, long long m) {
-    int sum;
-    n + m = sum;
-        return sum;
+    return n + m;
 }
 
 int main()

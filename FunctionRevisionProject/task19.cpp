@@ -10,7 +10,7 @@ int main()
     return 0;
 }
 
-... print_table(...)
+string print_table(...)
 {
     string table = "";
     

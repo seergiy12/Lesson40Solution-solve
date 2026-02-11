@@ -4,6 +4,9 @@
 #include <iostream>
 using namespace std;
 
+string add_exclamination(char s) {
+    cout << s << "!";
+}
 int main() {
     string text = "Hello";
     text = add_exclamation(text);

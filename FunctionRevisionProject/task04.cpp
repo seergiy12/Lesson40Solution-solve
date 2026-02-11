@@ -4,6 +4,8 @@
 #include <iostream>
 using namespace std;
 
+int is_even(int flag, int num);
+
 int main()
 {
     cout << is_even(true, 4);

@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-... print_number_and_text(... number, ... text)
+bool print_number_and_text(int number, string text)
 {
     cout << number << ": " << text << endl;
 }

@@ -4,12 +4,14 @@
 #include <iostream>
 using namespace std;
 
+string find_сhar(char str, char ch)
+
 int main() {
     cout << find_сhar("Hello", 'e');
     return 0;
 }
 
-... find_сhar(... str, ... ch) {
+string find_сhar(char str, char ch) {
     for (int i = 0; i < str.length(); i++) {
         if (str[i] == ch) {
             return i;

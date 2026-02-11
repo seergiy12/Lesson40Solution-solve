@@ -12,5 +12,5 @@ int main()
 
 long double multiply(int n, int m) {
    
-    return 0;
+    return n * m;
 }
